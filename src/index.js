@@ -1,13 +1,13 @@
 import './style.css';
 
 function makeDropdown(btn, items) {
-    btn.addEventListener('click', () => {
-        if (items.style.display === 'none') {
-            items.style.display = 'block';
-        } else {
-            items.style.display = 'none';
-        }
-    });
+  btn.addEventListener('click', () => {
+    if (items.style.display === 'none') {
+      items.style.display = 'block';
+    } else {
+      items.style.display = 'none';
+    }
+  });
 }
 
 const dropbtn = document.getElementById('dropdown1');
