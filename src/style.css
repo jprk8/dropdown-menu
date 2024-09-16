@@ -1,3 +1,10 @@
-body {
-  background-color: black;
+.dropdown-btn,
+.dropdown-item {
+  border: 1px solid black;
+  padding: 5px 10px;
+  width: fit-content;
+}
+
+.dropdown-btn {
+  cursor: pointer;
 }
